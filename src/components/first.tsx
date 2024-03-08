@@ -4,11 +4,10 @@
  * @see https://v0.dev/t/KzOYuPVcSrL
  */
 import { Input } from "@/components/ui/input";
+import { useRef } from "react";
 import { Button } from "./ui/button";
-import { useRef, useState } from "react";
-import Confetti from "react-confetti";
 
-export function Initial(props: {
+export function First(props: {
   nextChallenge: () => void;
 }) {
   const inputRef = useRef<HTMLInputElement>(null);
@@ -38,7 +37,7 @@ export function Initial(props: {
             type="text"
             ref={inputRef}
           />
-          <Button type="submit">Soltar magia</Button>
+          <Button type="submit" variant="secondary">Soltar magia</Button>
         </div>
       </form>
     </div>

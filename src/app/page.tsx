@@ -5,7 +5,7 @@ import Challenges from "./challenges";
 export default function Home() {
   return (
     <main>
-      <div className="w-full min-h-[100vh] flex flex-row bg-[#0E1A33] ">
+      <div className="w-full min-h-[100vh] flex flex-row bg-black ">
         <Challenges />
         <div className="flex items-center">
           <Image alt="ravenclaw" src={ravenclaw} width={400} />
