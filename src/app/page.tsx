@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       <div className="w-full min-h-[100vh] flex flex-row bg-black ">
         <Challenges />
-        <div className="flex items-center">
+        <div className="flex items-center px-20">
           <Image alt="ravenclaw" src={ravenclaw} width={400} />
         </div>
       </div>
