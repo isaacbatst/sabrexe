@@ -8,7 +8,7 @@ export default function Home() {
       <div className="w-full min-h-[100vh] flex flex-row bg-[#0E1A33] ">
         <Initial />
         <div className="flex items-center">
-          <Image alt="" src={ravenclaw} width={400} />
+          <Image alt="ravenclaw" src={ravenclaw} width={400} />
         </div>
       </div>
     </main>
