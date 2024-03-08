@@ -33,7 +33,7 @@ export function First(props: {
         <div className="flex gap-3">
           <Input
             className="w-full bg-[#000000] text-white border mb-3 border-[#0D1026] rounded-md px-4 py-2 focus:outline-none focus:ring focus:ring-[#0D1026] dark:bg-gray-800 dark:focus:ring-gray-600"
-            placeholder="Digite a magia certa..."
+            placeholder="Diga as palavras mágicas..."
             type="text"
             ref={inputRef}
           />
