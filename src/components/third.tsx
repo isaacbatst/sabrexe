@@ -11,9 +11,9 @@ const Third = (props: Props) => {
       typeSpeed: 50,
       strings: [
         `<p>Parabéns, você é uma membra legítima da casa corvinal!</p>^1000`,
-        `<p>Seu prêmio final está na bolsa mais pesada.</p> 
+        `<p class="mb-5">Seu prêmio final está na bolsa mais pesada.</p>
           <p>Dentro de um presente seu para mim 
-          <p>você encontrará um presente meu para você</p>`,
+          <p>você encontrará um presente meu para você.</p>`,
       ],
       showCursor: false,
       backSpeed: 15,
