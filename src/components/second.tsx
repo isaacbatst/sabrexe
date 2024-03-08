@@ -23,10 +23,10 @@ const Second = (props: Props) => {
         `
           <p>Às vezes é difícil enxergar</p>
           <p>então abra bem os olhos,</p>
-          <p>para que</p> <p>quando eu te veja pare logo em teu olhar...</p>^3000
+          <p>para que</p> <p>quando eu te veja</p> <p>pare logo em teu olhar...</p>^3000
         `,
         ` <p>Responda o desafio</p>
-          <p>e quem sabe um pouco mais feliz esse dia vai ficar.</p>^2000`,
+          <p>e quem sabe um pouco mais feliz<p> <p>esse dia vai ficar.</p>^2000`,
         `
           <p class='mb-5'">Aonde é tão quente que a água grita por socorro?</p>^4000
           <p>Vá, mas não se esqueça de voltar</p>
